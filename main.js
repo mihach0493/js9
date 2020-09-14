@@ -1,10 +1,8 @@
-let text = document.getElementById("nazwa-id");
+function myFunction() {
 
-let myHeading = document.querySelector('button');
-myHeading.textContent = 'Klik';
+var text1 ="hello";
+document.getElementById("opis").innerHTML = text1;
 
-myHeading.onclick =function() {
-    alert('Kliknales tekst paragrafu <p>');
 }
 
-console.log(myHeading);
+
